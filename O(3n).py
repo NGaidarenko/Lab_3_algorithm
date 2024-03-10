@@ -1,9 +1,6 @@
 from random import randint
-
-n = int(input("Введите количество элментов в массиве: "))
-arr = []
-for i in range(n):
-    arr.append(randint(-99, 99))
+n = input("Введите числа: ")
+arr = [i for i in n.split(' ')]
 
 for i in range(n):
     print(arr[i])
@@ -11,5 +8,5 @@ for i in range(n):
 for i in range(n):
      print(arr[i])
 
-for i in range(n):
-    print(arr[i])
+
+
